@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  title: Test
+  description: test
+  annotations:
+    github.com/project-slug: bcgov/karim-demo-oct-2024
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/product_description: test
+    backstage.io/source-template: template:default/quickstart-openshift
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:bcgov/developer-experience
